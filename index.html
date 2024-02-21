@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio Website</title>
+
+    <!-- Main file CSS-->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Famiy -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <!--===  HEADER  ===-->
+    <header id="header">
+        <div class="container">
+            <a href="#" class="logo">
+                <img id="logoImg" src="img/logo.png" alt="myIllustration" class="img-fluid">
+            </a>
+            <ul class="menu">
+                <li class="menu_item">
+                    <a href="#home" class="menu_link active-link">Home</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#about" class="menu_link">About</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#resume" class="menu_link">Resume</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#project" class="menu_link">Projects</a>
+                </li>
+                <li class="menu_item">
+                    <a href="#contact" class="menu_link">Contact</a>
+                </li>
+                <ion-icon name="close-outline" class="close_icon"></ion-icon>
+            </ul>
+            <ion-icon name="menu-outline" class="toggle_icon"></ion-icon>
+        </div>
+    </header>
+    <main>
+        <!-- =========== Title Section =========== -->
+        <div class="title-container">
+            <h1 class="title">My Portofolio</h1>
+        </div>
+        
+        <!-- =========== Home Section =========== -->
+        <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content">
+                    <h4>Hi there,</h4>
+                    <h1>I'm a
+                        <span class="typed" data-typed-items="Designer, Developper, Freelancer"></span>
+                    </h1>
+                    <br>
+                    <p>
+                        I'm a creative web Developper based in Paris, I'm passionate and dedicated about my work !
+                    </p>
+                    <div class="home_social">
+                        <a href="mailto:zoennts@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://github.com/zoeleca/"><ion-icon name="logo-github"></ion-icon></a>
+                    </div>
+                    <a href="#contact" class="btn" id="contact">
+                    <strong>Read More</strong>
+                        <ion-icon name="chevron-foward-outline"></ion-icon>
+                    </a>
+                </div>
+                <div class="home_img"></div>
+                <img class="img-fluid" src="img/zoe.jpg" alt="Me">
+                </div>
+            </div>
+        </section>
+        
+         <!-- =========== About section =========== -->
+    <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <div class="about_container container grid">
+            <div class="about_img">
+                <img src="img/cat.jpg" alt="coding-cat">
+            </div>
+            <div class="about_content">
+                <h1><em>Bonjour 🖐️</em></h1>
+                <br>
+                <h2><em>I'm Zoe, a Developper Student at Ada Tech School in Paris.</em></h2>
+                <p>After graduating from Korean Studies in Inalco, I decided to take a gap year to rethink about my future
+                    career. <br>
+                    It's in New Zealand that I came accross professional working in the Tech and started an exciting journey
+                    towards becoming a Developper.</p>
+                <p>I develop mainly using JavaScript. But I have started using PHP, Python and tools such as React.
+                    <br>
+                    Have a look at my repos to see what I'm curently working on !
+                </p>
+                <br>
+                <div class="home_social">
+                    <a href="mailto:zoennts@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://github.com/zoeleca/"><ion-icon name="logo-github"></ion-icon></a>
+                </div>
+                <div class="about_info">
+                    <div>
+                        <span class="number">4</span>
+                        <br>
+                        <a href="#project"><span class="text"><strong>Group Projets</strong></span></a>
+                    </div>
+                    <div>
+                        <span class="number">2</span>
+                        <br>
+                        <a href="#project"><span class="text"><strong>Solo Projects</strong></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+ <!-- =========== Resume Section =========== -->
+ <section class="resume section" id="resume">
+    <h2 class="section_title">Resume</h2>
+    <div class="resume_container container grid">
+        <div class="resume_tabs">
+            <ul>
+                <li>
+                    <a href="#page-1" class="current">Education</a>
+                </li>
+                <li>
+                    <a href="#page-2" class="current">Experience</a>
+                </li>
+                <li>
+                    <a href="#page-3" class="current">Skills</a>
+                </li>
+                <li>
+                    <a href="#page-4" class="current">Awards</a>
+                </li>
+            </ul>
+        </div>
+        <div class="resume_content">
+            <div class="page one" id="page-1">
+                <div class="page_heading"><h1>Education</h1></div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2023-2025</span>
+                        <h4>Bachelor in computer Science</h4>
+                        <span class="position">Ada Tech School, 75010 Paris </span>
+                        <br>
+                        <h5><strong>> A Preparation Course to the "<em>Application Developer</em>"" RNCP Qualification </strong></h5>
+                        <p>
+                            <li>Technical fundamental of programmation :<br>
+                                <span class="example"><em>Algorithm, language of programmation, Network & System, Software Architecture and Dev Tools.</em></span>
+                            </li>
+                            <li>Learning about Development Practices :<br>
+                                <span class="example"><em>Documentation, Information Search, Clean code, Unit testing & Integration Testing.</em></span>
+                            </li>
+                            <li>Improving Soft skills :<br>
+                                <span class="example"><em>Communication, Problem soving, Team Lead, Agile Methodology, Collaboration</em></span>
+                            </li>
+                        </p>
+                    </div>
+                </div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2019-2023</span>
+                        <h4>Bachelor in Korean Studies </h4>
+                        <span class="position">Institut National des Langues et Civilisations Orientales, 75013 Paris </span>
+                        <br>
+                        <h5><strong>> Bachelor Degree <em>Korean Studies</em></strong></h5>
+                        <p>
+                            <li>Language and Communication Skills:<br>
+                                <span class="example"><em>Graduated with B1 on the CEFR Levels</em></span>
+                            </li>
+                            <li>Working in a Multicultural Environnement<br>
+                                <span class="example"><em>International Communication, Team Work and Collaboration</em></span>
+                            </li>
+                            <li>Knowledge Expanded:<br>
+                                <span class="example"><em>Korean History, Culture, Litterature and much more</em></span>
+                            </li>
+                        </p>
+                    </div>
+                </div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2018-2019</span>
+                        <h4>Graphic Designer Preparation Course </h4>
+                        <span class="position">BRASSART School, 44200 Nantes </span>
+                        <br>
+                        <h5><strong>> Graphic Designer Preparation <em>Diploma</em></strong></h5>
+                        <p>
+                            <li>Creativity and Understanding the Aesthetic:<br>
+                                <span class="example"><em>Color & Elements Theory, Typography</em></span>
+                            </li>
+                            <li>Marketing<br>
+                                <span class="example"><em>Project management, Communication with Clients, Collaboration</em></span>
+                            </li>
+                        </p>
+                    </div>
+                </div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2017</span>
+                        <h4>Baccalauréat</h4>
+                        <span class="position">BRASSART School, 44200 Nantes </span>
+                        <br>
+                        <h5><strong>> High School Diploma<em>in Science</em></strong></h5>
+                        <p>
+                            <li>Grade B+</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page two" id="page-2">
+                <div class="page_heading"><h1>Experiences</h1></div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2021-2024</span>
+                        <h4>Barista | Part-time </h4>
+                        <span class="position">Binici Café, 75003 Paris</span>
+                        <p>
+                            <li>Coffee & Latte art</li>
+                            <li>Communication in French, English and Korean</li>
+                            <li>Team Work</li>
+                        </p>
+                    </div>
+                </div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">Dec 2022 - Mar 2023</span>
+                        <h4>Barista & FOH | Full Time</h4>
+                        <span class="position">Miann Café, Auckland, New-Zealand</span>
+                        <p>
+                            <li>Problem Solving</li>
+                            <li>New comers Training</li>
+                            <li>Time Management</li>
+                            <li>Storage Management</li>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="page three" id="page-3">
+                <div class="page_heading"><h1>Skills</h1></div>
+                <br>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 90%"></div>
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>CSS</span>
+                        <span>70%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 70%"></div>
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>JS Vanilla</span>
+                        <span>65%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 65%"></div>
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>Python</span>
+                        <span>25%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 25%"></div>
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>ReactJS</span>
+                        <span>15%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 15%"></div>
+                    </div>
+                </div>
+                <div class="progressBox">
+                    <div class="progress_name">
+                        <span>Express</span>
+                        <span>10%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress_bar" style="width : 10%"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="page four" id="page-4">
+                <div class="page_heading"><h1>Awards</h1></div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2023</span>
+                        <h4>IELTS ACADEMIC</h4>
+                        <span class="position">Auckland, New-Zealand</span>
+                        <p>Overall Score 7.5/9</p>
+                    </div>
+                </div>
+                <div class="resume_wrap">
+                    <div class="resume_wrap-icon">
+                        <ion-icon name="school-outline"></ion-icon>
+                    </div>
+                    <div class="resume_wrap-content">
+                        <span class="date">2022</span>
+                        <h4>TOPIK II</h4>
+                        <span class="position">Inalco, Paris</span>
+                        <p>Level 5</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- =========== Portfolio section  =========== -->
+<section class="portfolio section" id="project">
+    <h2 class="section_title">Portfolio</h2>
+    <div class="portfolio_container container">
+        <!--
+        <ul class="portfolio_filters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+        </ul>
+        -->
+        <div class="portfolio_wrap-container">
+            <div class="group_project" >
+                <h2 class="text"><strong>Group Projects</strong></h2>
+                <div class="portfolio_item filter-web">
+                    <div class="portfolio_wrap">
+                        <img class="img-fluid" src="img/social-network.png" alt="portfolioWrap">
+                        <div class="portfolio_info">
+                            <h4>Social Network</h4>
+                            <p>PHP, DB, MySQL & Laragon</p>
+                            <div class="portfolio_links">
+                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
+                                <a href="https://github.com/zoeleca/social-network-php"><ion-icon
+                                        name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-app">
+                    <div class="portfolio_wrap">
+                        <img class="img-fluid" src="img/Blur.png" alt="portfolioWrap">
+                        <div class="portfolio_info">
+                            <h4>Chrome Extension</h4>
+                            <p>JS, Chrome API, Chrome Storage</p>
+                            <div class="portfolio_links">
+                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
+                                <a href="https://github.com/zoeleca/ExtensionChrome"><ion-icon
+                                        name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-app">
+                    <div class="portfolio_wrap">
+                        <img class="img-fluid" src="img/pokemon.png" alt="portfolioWrap">
+                        <div class="portfolio_info">
+                            <h4>Pokemon</h4>
+                            <p>JS & API</p>
+                            <div class="portfolio_links">
+                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
+                                <a href="https://github.com/zoeleca/Pokedex-and-Pokemon"><ion-icon
+                                        name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="portfolio_item filter-card">
+                    <div class="portfolio_wrap">
+                        <img class="img-fluid" src="img/onepiece.png" alt="portfolioWrap">
+                        <div class="portfolio_info">
+                            <h4>One Piece - Game</h4>
+                            <p>Lua & Pico 8</p>
+                            <div class="portfolio_links">
+                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
+                                <a href="https://github.com/zoeleca/projet-collectif-pico8-one-piece"><ion-icon
+                                        name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="solo_project" >
+                <h2 class="text"><strong>Solo Projects</strong></h2>
+                <div class="portfolio_item filter-card">
+                    <div class="portfolio_wrap">
+                        <img class="img-fluid" src="img/tictactoe.png" alt="portfolioWrap">
+                        <div class="portfolio_info">
+                            <h4>Tictactoe</h4>
+                            <p>Vite, ReactJS, NodeJS</p>
+                            <div class="portfolio_links">
+                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
+                                <a href="https://github.com/zoeleca/tictactoe"><ion-icon
+                                        name="link-outline"></ion-icon></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<br>
+<br>
+<br>
+    </main>
+        <!--ionicons-->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        
+        <!--typed js-->
+        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <!-- Main script -->
+        <script src="main.js"></script>
+        
+    </body>
+    
+    </html>
