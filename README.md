@@ -8,12 +8,13 @@ I mainly used HTML & CSS to make it, but I am currently working on a second vers
 Click <a href='https://zoeleca.github.io/'>Here</a>
 
 <br>
+
 <em>Front page</em>
-![Responsive Website](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/2a0bd5e5-7844-422b-833d-a2dd70f992fa)
+![Portofolio HomePage](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/b47e2627-cd9f-4986-8d0f-134db3782986)
 <br>
 
 <em>A responsive Website</em>
-![Portofolio HomePage](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/b47e2627-cd9f-4986-8d0f-134db3782986)
+![Responsive Website](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/2a0bd5e5-7844-422b-833d-a2dd70f992fa)
 <br>
 
 <em>My projects</em>
