@@ -10,7 +10,7 @@ Click <a href='https://zoeleca.github.io/'>Here</a>
 <br>
 
 <em>Front page</em><br>
-![Portofolio homepage](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/2a0bd5e5-7844-422b-833d-a2dd70f992fa)
+![Portofolio homepage](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/1fc3c815-9a0d-4210-ae58-a86308c8a95b)
 <br>
 
 <em>My projects</em><br>
