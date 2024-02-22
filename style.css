@@ -449,7 +449,7 @@ header .container{
 }
 @media screen and (max-width: 768px){
     .about_container{
-        display: felx;
+        display: flex;
         grid-template-columns: 1fr;
         padding: 10px;
     }
