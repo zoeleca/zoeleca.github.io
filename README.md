@@ -1,7 +1,7 @@
-# portofolio-v1
+# portfolio-v1
 
 ### Hi there ! 
-Welcome to My Portofolio ! Here is a minimalist but responsive website to present myself..
+Welcome to My Portfolio ! Here is a minimalist but responsive website to present myself..
 I mainly used HTML & CSS to make it, but I am currently working on a second version using React, Tailwind and Figma ;)
 <br>
 
