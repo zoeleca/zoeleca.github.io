@@ -19,7 +19,7 @@ Click <a href='https://zoeleca.github.io/'>Here</a>
 <br>
 
 <em>A responsive Website</em><br>
-![Responsive website](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/b47e2627-cd9f-4986-8d0f-134db3782986)
+![Responsive website](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/3262e012-d516-4759-a655-a0f62f04da11)
 <br>
 <br>
 
