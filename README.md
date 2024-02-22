@@ -14,7 +14,8 @@ Click <a href='https://zoeleca.github.io/'>Here</a>
 <br>
 
 <em>My projects</em><br>
-![My project](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/95eec3ec-26f8-4b61-b520-76a9ea04ca67)
+![My project](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/ca52cb20-b12d-4438-ac3b-dadd97dfd1eb)
+
 <br>
 
 <em>A responsive Website</em><br>
