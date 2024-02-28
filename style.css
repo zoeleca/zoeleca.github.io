@@ -795,7 +795,7 @@ header .container{
     background-color: transparent;
 }
 .portfolio_links a {
-    font-size: 28px;
+    font-size: 80px;
     color: #173a37;
 }
 .portfolio_wrap:hover .portfolio_info {
@@ -809,10 +809,13 @@ header .container{
 .portfolio_wrap:hover h4{
     background-color: #fff
 }
+.portfolio_wrap:hover a {
+    color: #821f3b;
+}
 
 @media screen and (max-width:992px) {
     .portfolio_wrap-container{
-        grid-template-columns: repeat(2,1fr)
+        grid-template-columns: 1fr;
     }
 }
 
