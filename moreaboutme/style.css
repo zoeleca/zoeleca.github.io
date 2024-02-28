@@ -251,24 +251,23 @@ header {
 }
 
 @media screen and (max-width: 568px) {
-    /* Styles for screens up to 568px width */
 
     .container {
-        padding: 0 15px; /* Adjust padding for smaller screens */
+        padding: 0 15px; 
     }
 
     .about_container,
     .latteart_wrap-container {
-        flex-direction: column; /* Change layout to column for both sections */
-        align-items: center; /* Center items */
+        flex-direction: column; 
+        align-items: center; 
     }
 
     .section_title {
-        font-size: 28px; /* Decrease font size for section titles */
+        font-size: 28px; 
     }
 
     .about_content,
     .latteart_img {
-        padding: 0 10px; /* Adjust padding for content sections */
+        padding: 0 10px; 
     }
 }
