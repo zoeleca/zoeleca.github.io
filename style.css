@@ -865,7 +865,8 @@ header .container{
     box-shadow: 0 0 10 px var(--main-color);
 }
 
-.contact_social h3{
+.contact_social h3,
+.contact_social h1{
     font-size: 20px;
     font-weight: 800;
     color: var(--big-title-color);
