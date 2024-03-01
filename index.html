@@ -7,9 +7,9 @@
     <meta property="og:title" content="My portfolio" />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://zoeleca.github.io/" />
-    <meta property="og:image" content="https://github.com/zoeleca/zoeleca.github.io/blob/main/img/logo.png?raw=true"/>
-    <meta property="og:image:width" content="1920"/>
-    <meta property="og:image:height" content="500"/>
+    <meta property="og:image" content="https://github.com/zoeleca/zoeleca.github.io/blob/main/img/logo.png?raw=true" />
+    <meta property="og:image:width" content="1920" />
+    <meta property="og:image:height" content="500" />
     <title>My Portfolio Website</title>
 
     <!-- Main file CSS-->
@@ -38,10 +38,10 @@
                     <a href="#about" class="menu_link">About</a>
                 </li>
                 <li class="menu_item">
-                    <a href="#resume" class="menu_link">Resume</a>
+                    <a href="#project" class="menu_link">Projects</a>
                 </li>
                 <li class="menu_item">
-                    <a href="#project" class="menu_link">Projects</a>
+                    <a href="#resume" class="menu_link">Resume</a>
                 </li>
                 <li class="menu_item">
                     <a href="#contact" class="menu_link">Contact</a>
@@ -56,7 +56,7 @@
         <div class="title-container">
             <h1 class="title">My Portfolio</h1>
         </div>
-        
+
         <!-- =========== Home Section =========== -->
         <section class="home section" id="home">
             <div class="home_container container grid">
@@ -71,11 +71,12 @@
                     </p>
                     <div class="home_social">
                         <a href="mailto:zoennts@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
-                        <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
                         <a href="https://github.com/zoeleca/"><ion-icon name="logo-github"></ion-icon></a>
                     </div>
                     <a href="moreaboutme/aboutme.html" class="btn" title="Learn more">
-                    <strong>Read More</strong>
+                        <strong>Read More</strong>
                         <ion-icon name="chevron-foward-outline"></ion-icon>
                     </a>
                 </div>
@@ -84,7 +85,7 @@
                 </div>
             </div>
         </section>
-        
+
         <!-- =========== About section =========== -->
         <section class="about section" id="about">
             <h2 class="section_title">About Me</h2>
@@ -97,13 +98,16 @@
                         <h1><em>Bonjour 🖐️</em></h1>
                         <br>
                         <h2><em>I'm Zoe, a Developper Student at Ada Tech School in Paris.</em></h2>
-                        <p>After graduating from Korean Studies in Inalco, I decided to take a gap year to rethink about my
+                        <p>After graduating from Korean Studies in Inalco, I decided to take a gap year to rethink about
+                            my
                             future
                             career. <br>
-                            It's in New Zealand that I came accross professional working in the Tech and started an exciting
+                            It's in New Zealand that I came accross professional working in the Tech and started an
+                            exciting
                             journey
                             towards becoming a Developper.</p>
-                        <p>I develop mainly using JavaScript. But I have started using PHP, Python and tools such as React.
+                        <p>I develop mainly using JavaScript. But I have started using PHP, Python and tools such as
+                            React.
                             <br>
                             Have a look at my repos to see what I'm curently working on !
                         </p>
@@ -111,7 +115,8 @@
                     </div>
                     <div class="home_social">
                         <a href="mailto:zoennts@gmail.com"><ion-icon name="mail-outline"></ion-icon></a>
-                        <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                        <a href="https://www.linkedin.com/in/zoe-lecaille/"><ion-icon
+                                name="logo-linkedin"></ion-icon></a>
                         <a href="https://github.com/zoeleca/"><ion-icon name="logo-github"></ion-icon></a>
                     </div>
                     <div class="about_info">
@@ -130,146 +135,322 @@
             </div>
         </section>
 
- <!-- =========== Resume Section =========== -->
- <section class="resume section" id="resume">
-    <h2 class="section_title">Resume</h2>
-    <div class="resume_container container grid">
-        <div class="resume_tabs">
-            <ul>
-                <li>
-                    <a href="#page-1" class="current">Education</a>
-                </li>
-                <li>
-                    <a href="#page-2" class="current">Experience</a>
-                </li>
-                <!--<li>
+               <!-- =========== Portfolio section  =========== -->
+               <section class="portfolio section" id="project">
+                <h2 class="section_title">Portfolio</h2>
+                <div class="portfolio_container container">
+                    <!--
+            <ul class="portfolio_filters">
+                <li data-filter="*" class="filter-active">All</li>
+                <li data-filter=".filter-app">App</li>
+                <li data-filter=".filter-card">Card</li>
+                <li data-filter=".filter-web">Web</li>
+            </ul>
+            -->
+                    <div class="portfolio_wrap-container">
+                        <div class="group_project">
+                            <h1 class="text"><strong>Group Projects</strong></h1>
+                            <div class="portfolio_item filter-web">
+                                <div class="portfolio_wrap">
+                                    <div class="details-container color-container">
+                                        <div class="article-container">
+                                            <img class="img-fluid" src="img/social-network.png" alt="portfolioWrap">
+                                        </div>
+                                    </div>
+                                    <div class="explaination">
+                                        <h2 class="experience-sub-title project-title">Social Network</h2>
+                                        <h4 class="stacks">Client : HTML & CSS.<br>
+                                            Server : PHP, MySQL, MariaDB </h4>
+                                        <p>Group Project - 2 weeks This social network is a platform that allows where users to register and login. They can
+                                            explore the differents pages, like posts and follow users but they can also post messages.</p>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://github.com/zoeleca/social-network-php'">
+                                                Github
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item filter-app">
+                                <div class="portfolio_wrap">
+    
+                                    <div class="details-container color-container">
+                                        <div class="article-container">
+                                            <img class="img-fluid" src="img/Blur.png" alt="portfolioWrap">
+                                        </div>
+                                    </div>
+                                    <div class="explaination">
+                                        <h2 class="experience-sub-title project-title">Chrome Extension</h2>
+                                        <h4 class="stacks">Client : HTML & CSS.<br>
+                                            Server : JavaScript, Chrome API + storage </h4>
+                                        <p>NeuroPause is a browser extension designed to facilitate screen breaks, with special attention to adapting to individuals with Asperger's syndrome.</p>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://github.com/zoeleca/ExtensionChrome'">
+                                                Github
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="portfolio_item filter-app">
+                                <div class="portfolio_wrap">
+                                    <div class="details-container color-container">
+                                        <div class="article-container">
+                                            <img class="img-fluid" src="img/pokemon.png" alt="portfolioWrap">
+                                        </div>
+                                    </div>
+                                    <div class="explaination">
+                                        <h2 class="experience-sub-title project-title">Pokemon</h2>
+                                        <h4 class="stacks">Client : HTML & CSS<br>
+                                            Server : JavaScript, Pokemon API, POSTMAN </h4>
+                                        <p>Pokemon and Pokedex is a website that allows you to play and search pokemons anywhere. You can choose to do a pokemon
+                                            quizz and look at the pokedex.</p>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://github.com/zoeleca/Pokedex-and-Pokemon'">
+                                                Github
+                                            </button>
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://zoeleca.github.io/Pokedex-and-Pokemon/Accueil/Accueil.html'">Live
+                                                Demo
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="portfolio_item filter-card">
+                                <div class="portfolio_wrap">
+                                    <div class="details-container color-container">
+                                        <div class="article-container">
+                                            <img class="img-fluid" src="img/onepiece.png" alt="portfolioWrap">
+                                        </div>
+                                    </div>
+                                    <div class="explaination">
+                                        <h2 class="experience-sub-title project-title">One Piece - Game</h2>
+                                        <h4 class="stacks">Pico 8 - LUA, Piskel</h4>
+                                        <p>One Piece is a game that you can play anywhere. It allows you to explore a map, collect coins and defeat enemies
+                                            while playing the character Luffy. Here is the first version of the game.</p>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://github.com/zoeleca/projet-collectif-pico8-one-piece'">
+                                                Github
+                                            </button>
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://zoeleca.github.io/one-piece-game/one-piece-website/one-piece.html'">Live
+                                                Demo
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="solo_project">
+                                <h2 class="text"><strong>Personnal Projects</strong></h2>
+                                <div class="portfolio_item filter-card">
+                                    <div class="portfolio_wrap">
+                                        <div class="details-container color-container">
+                                            <div class="article-container">
+                                                <img class="img-fluid" src="img/tictactoe.png" alt="portfolioWrap">
+                                            </div>
+    
+                                        </div>
+                                        <div class="explaination">
+                                            <h4 class="stacks">Vite, React JS, CSS</h4>
+                                            <h2 class="experience-sub-title project-title">Tictactoe</h2>
+                                            <p>Blossom Tictactoe is a game that you can play anywhere. It has an Aesthetic and cute cherry blossom animation.</p>
+                                            <div class="btn-container">
+                                                <button class="btn btn-color-2 project-btn"
+                                                    onclick="location.href='https://github.com/zoeleca/tictactoe'">
+                                                    Github
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="portfolio_item filter-card">
+                                <div class="portfolio_wrap">
+                                    <div class="details-container color-container">
+                                        <div class="article-container">
+                                            <img class="img-fluid" src="img/portfolio.png" alt="portfolioWrap">
+                                        </div>
+    
+                                    </div>
+                                    <div class="explaination">
+                                        <h2 class="experience-sub-title project-title">Portfolio</h2>
+                                        <h4 class="stacks">HTML, CSS, JS</h4>
+                                        <p>Creation of a minimalist and responsive Personal Portfolio</p>
+                                        <div class="btn-container">
+                                            <button class="btn btn-color-2 project-btn"
+                                                onclick="location.href='https://github.com/zoeleca/zoeleca.github.io/'">
+                                                Github
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </section>
+    
+
+        <!-- =========== Resume Section =========== -->
+        <section class="resume section" id="resume">
+            <h2 class="section_title">Resume</h2>
+            <div class="resume_container container grid">
+                <div class="resume_tabs">
+                    <ul>
+                        <li>
+                            <a href="#page-1" class="current">Education</a>
+                        </li>
+                        <li>
+                            <a href="#page-2" class="current">Experience</a>
+                        </li>
+                        <!--<li>
                     <a href="#page-3" class="current">Skills</a>
                 </li>-->
-                <li>
-                    <a href="#page-4" class="current">Awards</a>
-                </li>
-            </ul>
-        </div>
-        <div class="resume_content">
-            <div class="page one" id="page-1">
-                <div class="page_heading"><h1>Education</h1></div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2023-2025</span>
-                        <h4>Bachelor in computer Science</h4>
-                        <span class="position">Ada Tech School, 75010 Paris </span>
-                        <br>
-                        <h5><strong>> A Preparation Course to the "<em>Application Developer</em>"" RNCP Qualification </strong></h5>
-                        <p>
-                            <li>Technical fundamental of programmation :<br>
-                                <span class="example"><em>Algorithm, language of programmation, Network & System, Software Architecture and Dev Tools.</em></span>
-                            </li>
-                            <li>Learning about Development Practices :<br>
-                                <span class="example"><em>Documentation, Information Search, Clean code, Unit testing & Integration Testing.</em></span>
-                            </li>
-                            <li>Improving Soft skills :<br>
-                                <span class="example"><em>Communication, Problem soving, Team Lead, Agile Methodology, Collaboration</em></span>
-                            </li>
-                        </p>
-                    </div>
+                        <li>
+                            <a href="#page-4" class="current">Awards</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
+                <div class="resume_content">
+                    <div class="page one" id="page-1">
+                        <div class="page_heading">
+                            <h1>Education</h1>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2023-2025</span>
+                                <h4>Bachelor in computer Science</h4>
+                                <span class="position">Ada Tech School, 75010 Paris </span>
+                                <br>
+                                <h5><strong>> A Preparation Course to the "<em>Application Developer</em>"" RNCP
+                                        Qualification </strong></h5>
+                                <p>
+                                    <li>Technical fundamental of programmation :<br>
+                                        <span class="example"><em>Algorithm, language of programmation, Network &
+                                                System, Software Architecture and Dev Tools.</em></span>
+                                    </li>
+                                    <li>Learning about Development Practices :<br>
+                                        <span class="example"><em>Documentation, Information Search, Clean code, Unit
+                                                testing & Integration Testing.</em></span>
+                                    </li>
+                                    <li>Improving Soft skills :<br>
+                                        <span class="example"><em>Communication, Problem soving, Team Lead, Agile
+                                                Methodology, Collaboration</em></span>
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2019-2023</span>
+                                <h4>Bachelor in Korean Studies </h4>
+                                <span class="position">Institut National des Langues et Civilisations Orientales, 75013
+                                    Paris </span>
+                                <br>
+                                <h5><strong>> Bachelor Degree <em>Korean Studies</em></strong></h5>
+                                <p>
+                                    <li>Language and Communication Skills:<br>
+                                        <span class="example"><em>Graduated with B1 on the CEFR Levels</em></span>
+                                    </li>
+                                    <li>Working in a Multicultural Environnement<br>
+                                        <span class="example"><em>International Communication, Team Work and
+                                                Collaboration</em></span>
+                                    </li>
+                                    <li>Knowledge Expanded:<br>
+                                        <span class="example"><em>Korean History, Culture, Litterature and much
+                                                more</em></span>
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2018-2019</span>
+                                <h4>Graphic Designer Preparation Course </h4>
+                                <span class="position">BRASSART School, 44200 Nantes </span>
+                                <br>
+                                <h5><strong>> Graphic Designer Preparation <em>Diploma</em></strong></h5>
+                                <p>
+                                    <li>Creativity and Understanding the Aesthetic:<br>
+                                        <span class="example"><em>Color & Elements Theory, Typography</em></span>
+                                    </li>
+                                    <li>Marketing<br>
+                                        <span class="example"><em>Project management, Communication with Clients,
+                                                Collaboration</em></span>
+                                    </li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2017</span>
+                                <h4>Baccalauréat</h4>
+                                <span class="position">BRASSART School, 44200 Nantes </span>
+                                <br>
+                                <h5><strong>> High School Diploma<em>in Science</em></strong></h5>
+                                <p>
+                                    <li>Grade B+</li>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2019-2023</span>
-                        <h4>Bachelor in Korean Studies </h4>
-                        <span class="position">Institut National des Langues et Civilisations Orientales, 75013 Paris </span>
-                        <br>
-                        <h5><strong>> Bachelor Degree <em>Korean Studies</em></strong></h5>
-                        <p>
-                            <li>Language and Communication Skills:<br>
-                                <span class="example"><em>Graduated with B1 on the CEFR Levels</em></span>
-                            </li>
-                            <li>Working in a Multicultural Environnement<br>
-                                <span class="example"><em>International Communication, Team Work and Collaboration</em></span>
-                            </li>
-                            <li>Knowledge Expanded:<br>
-                                <span class="example"><em>Korean History, Culture, Litterature and much more</em></span>
-                            </li>
-                        </p>
+                    <div class="page two" id="page-2">
+                        <div class="page_heading">
+                            <h1>Experiences</h1>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2021-2024</span>
+                                <h4>Barista | Part-time </h4>
+                                <span class="position">Binici Café, 75003 Paris</span>
+                                <p>
+                                    <li>Coffee & Latte art</li>
+                                    <li>Communication in French, English and Korean</li>
+                                    <li>Team Work</li>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">Dec 2022 - Mar 2023</span>
+                                <h4>Barista & FOH | Full Time</h4>
+                                <span class="position">Miann Café, Auckland, New-Zealand</span>
+                                <p>
+                                    <li>Problem Solving</li>
+                                    <li>New comers Training</li>
+                                    <li>Time Management</li>
+                                    <li>Storage Management</li>
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2018-2019</span>
-                        <h4>Graphic Designer Preparation Course </h4>
-                        <span class="position">BRASSART School, 44200 Nantes </span>
-                        <br>
-                        <h5><strong>> Graphic Designer Preparation <em>Diploma</em></strong></h5>
-                        <p>
-                            <li>Creativity and Understanding the Aesthetic:<br>
-                                <span class="example"><em>Color & Elements Theory, Typography</em></span>
-                            </li>
-                            <li>Marketing<br>
-                                <span class="example"><em>Project management, Communication with Clients, Collaboration</em></span>
-                            </li>
-                        </p>
-                    </div>
-                </div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2017</span>
-                        <h4>Baccalauréat</h4>
-                        <span class="position">BRASSART School, 44200 Nantes </span>
-                        <br>
-                        <h5><strong>> High School Diploma<em>in Science</em></strong></h5>
-                        <p>
-                            <li>Grade B+</li>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="page two" id="page-2">
-                <div class="page_heading"><h1>Experiences</h1></div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2021-2024</span>
-                        <h4>Barista | Part-time </h4>
-                        <span class="position">Binici Café, 75003 Paris</span>
-                        <p>
-                            <li>Coffee & Latte art</li>
-                            <li>Communication in French, English and Korean</li>
-                            <li>Team Work</li>
-                        </p>
-                    </div>
-                </div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">Dec 2022 - Mar 2023</span>
-                        <h4>Barista & FOH | Full Time</h4>
-                        <span class="position">Miann Café, Auckland, New-Zealand</span>
-                        <p>
-                            <li>Problem Solving</li>
-                            <li>New comers Training</li>
-                            <li>Time Management</li>
-                            <li>Storage Management</li>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <!--<div class="page three" id="page-3">
+                    <!--<div class="page three" id="page-3">
                 <div class="page_heading"><h1>Skills</h1></div>
                 <br>
                 <div class="progressBox">
@@ -327,190 +508,84 @@
                     </div>
                 </div>
             </div>-->
-            <div class="page four" id="page-4">
-                <div class="page_heading"><h1>Awards</h1></div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2023</span>
-                        <h4>IELTS ACADEMIC</h4>
-                        <span class="position">Auckland, New-Zealand</span>
-                        <p>Overall Score 7.5/9</p>
-                    </div>
-                </div>
-                <div class="resume_wrap">
-                    <div class="resume_wrap-icon">
-                        <ion-icon name="school-outline"></ion-icon>
-                    </div>
-                    <div class="resume_wrap-content">
-                        <span class="date">2022</span>
-                        <h4>TOPIK II</h4>
-                        <span class="position">Inalco, Paris</span>
-                        <p>Level 5</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- =========== Portfolio section  =========== -->
-<section class="portfolio section" id="project">
-    <h2 class="section_title">Portfolio</h2>
-    <div class="portfolio_container container">
-        <!--
-        <ul class="portfolio_filters">
-            <li data-filter="*" class="filter-active">All</li>
-            <li data-filter=".filter-app">App</li>
-            <li data-filter=".filter-card">Card</li>
-            <li data-filter=".filter-web">Web</li>
-        </ul>
-        -->
-        <div class="portfolio_wrap-container">
-            <div class="group_project" >
-                <h2 class="text"><strong>Group Projects</strong></h2>
-                <div class="portfolio_item filter-web">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/social-network.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>Social Network</h4>
-                            <p>PHP, DB, MySQL & Laragon</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/social-network-php"><ion-icon
-                                        name="link-outline"></ion-icon></a>
+                    <div class="page four" id="page-4">
+                        <div class="page_heading">
+                            <h1>Awards</h1>
+                        </div>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
+                            </div>
+                            <div class="resume_wrap-content">
+                                <span class="date">2023</span>
+                                <h4>IELTS ACADEMIC</h4>
+                                <span class="position">Auckland, New-Zealand</span>
+                                <p>Overall Score 7.5/9</p>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <div class="portfolio_item filter-app">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/Blur.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>Chrome Extension</h4>
-                            <p>JS, Chrome API, Chrome Storage</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/ExtensionChrome"><ion-icon
-                                        name="link-outline"></ion-icon></a>
+                        <div class="resume_wrap">
+                            <div class="resume_wrap-icon">
+                                <ion-icon name="school-outline"></ion-icon>
                             </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio_item filter-app">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/pokemon.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>Pokemon</h4>
-                            <p>JS & API</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/Pokedex-and-Pokemon"><ion-icon
-                                        name="link-outline"></ion-icon></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio_item filter-card">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/onepiece.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>One Piece - Game</h4>
-                            <p>Lua & Pico 8</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/projet-collectif-pico8-one-piece"><ion-icon
-                                        name="link-outline"></ion-icon></a>
+                            <div class="resume_wrap-content">
+                                <span class="date">2022</span>
+                                <h4>TOPIK II</h4>
+                                <span class="position">Inalco, Paris</span>
+                                <p>Level 5</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="solo_project" >
-                <h2 class="text"><strong>Solo Projects</strong></h2>
-                <div class="portfolio_item filter-card">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/tictactoe.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>Tictactoe</h4>
-                            <p>Vite, ReactJS, NodeJS</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/tictactoe"><ion-icon
-                                        name="link-outline"></ion-icon></a>
-                            </div>
+        </section>
+
+
+        <!-- =========== Contact section  =========== -->
+        <section class="contact section" id="contact">
+            <h2 class="section_title">Get in Touch</h2>
+            <div class="contact_container container">
+                <div class="contact_content container">
+                    <div class="contact_social">
+                        <div class="group-contact">
+                            <a href="mailto:zoennts@gmail.com" class="icons">
+                                <ion-icon name="mail-outline"></ion-icon>
+                            </a>
+                            <h2 class="text">ZOENNTS@GMAIL.COM</h2>
                         </div>
-                    </div>
-                </div>
-                <div class="portfolio_item filter-card">
-                    <div class="portfolio_wrap">
-                        <img class="img-fluid" src="img/portfolio.png" alt="portfolioWrap">
-                        <div class="portfolio_info">
-                            <h4>Portfolio</h4>
-                            <p>HTML, CSS, JS, Gitpages</p>
-                            <div class="portfolio_links">
-                                <!--<a href="#"><ion-icon name="add-circle-outline"></ion-icon></a>-->
-                                <a href="https://github.com/zoeleca/zoeleca.github.io/"><ion-icon
-                                        name="link-outline"></ion-icon></a>
-                            </div>
+                        <div class="group-contact">
+                            <a href="https://github.com/zoeleca/" class="icons" target="_blank">
+                                <ion-icon name="logo-github"></ion-icon>
+                            </a>
+                            <a href="https://github.com/zoeleca/" target="_blank">
+                                <h3 class="text">Github</h3>
+                            </a>
+                        </div>
+                        <div class="group-contact">
+                            <a href="https://www.linkedin.com/in/zoe-lecaille/" class="icons" target="_blank">
+                                <ion-icon name="logo-linkedin"></ion-icon>
+                            </a>
+                            <a href="https://www.linkedin.com/in/zoe-lecaille/" target="_blank">
+                                <h3 class="text">Linkedin</h3>
+                            </a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-</section>
+        </section>
 
-
-<!-- =========== Contact section  =========== -->
-<section class="contact section" id="contact">
-    <h2 class="section_title">Get in Touch</h2>
-    <div class="contact_container container">
-        <div class="contact_content container">
-            <div class="contact_social">
-                <div class="group-contact">
-                    <a href="mailto:zoennts@gmail.com" class="icons">
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </a>                    
-                        <h2 class="text">ZOENNTS@GMAIL.COM</h2>
-                </div>
-                <div class="group-contact">
-                    <a href="https://github.com/zoeleca/" class="icons" target="_blank">
-                        <ion-icon name="logo-github"></ion-icon>
-                    </a>
-                    <a href="https://github.com/zoeleca/" target="_blank">
-                        <h3 class="text">Github</h3>
-                    </a>
-                </div>
-                <div class="group-contact">
-                    <a href="https://www.linkedin.com/in/zoe-lecaille/" class="icons" target="_blank">
-                        <ion-icon name="logo-linkedin"></ion-icon>
-                    </a>
-                    <a href="https://www.linkedin.com/in/zoe-lecaille/" target="_blank">
-                        <h3 class="text">Linkedin</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<br>
-<br>
-<br>
+        <br>
+        <br>
+        <br>
     </main>
-        <!--ionicons-->
-        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-        
-        <!--typed js-->
-        <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-        <!-- Main script -->
-        <script src="main.js"></script>
-        
-    </body>
-    
-    </html>
+    <!--ionicons-->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <!--typed js-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Main script -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>

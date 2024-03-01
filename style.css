@@ -690,57 +690,70 @@ header .container{
 
 
 /* =========== portfolio Section ===========*/
-/*tabs*/
-.portfolio_item  {
-    display:flex;
+/* =========== Portfolio Section =========== */
+
+/* Portfolio Item */
+.portfolio_item {
+    display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 70px;
 }
-.portfolio_item li{
+
+.portfolio_item li {
     font-size: 15px;
     padding: 5px 15px;
     cursor: pointer;
 }
+
 .portfolio_item li:hover,
-.filter-active{
+.filter-active {
     background-color: var(--main-color);
     color: #fff;
     border-radius: 50px;
 }
 
-.group_project .text{
-    text-align: center;
-    margin: 15px;
-}
-.solo_project .text{
+/* Group and Solo Projects Text */
+.group_project .text,
+.solo_project .text {
     text-align: center;
     margin: 15px;
 }
 
-
-.portfolio_wrap-container{
+/* Portfolio Container */
+.portfolio_wrap-container {
     display: grid;
     gap: 5rem;
-    grid-template-columns: repeat(2,2fr);
+    grid-template-columns: 1fr;
     position: relative;
 }
-.portfolio_item{
+
+.portfolio_item {
     border-radius: 10px;
 }
-.portfolio_wrap{
-    position: relative;
-    overflow: hidden;
-    z-index: 1;
-    height: 100%;
+
+.portfolio_wrap {
+    padding: 0.5rem;
+    background: white;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
-/*height 100% = image cover box */
-.portfolio_wrap img{
+
+/* Image Styles */
+.portfolio_wrap img {
     border-radius: 10px;
     height: 100%;
     align-items: center;
 }
-.portfolio_wrap::before {
+
+/* Article Container Styles */
+.article-container::before,
+.article-container::after {
     content: '';
     position: absolute;
     top: 20px;
@@ -748,35 +761,32 @@ header .container{
     width: 20px;
     height: 20px;
     background-color: transparent;
-    border-top: 3px solid rgba(0,0,0,.1);
-    border-left: 3px solid rgba(0,0,0,.1);
+    border-top: 3px solid rgba(0, 0, 0, .1);
+    border-left: 3px solid rgba(0, 0, 0, .1);
     transition: .4s;
     transform: scale(0);
 }
-.portfolio_wrap::after {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 20px;
+
+.article-container::after {
     width: 40px;
     height: 40px;
-    background-color: transparent;
     border-top: 3px solid #01366b;
-    border-left: 3px solid  #01366b;
-    transition: .4s;
-    transform: scale(0);
+    border-left: 3px solid #01366b;
 }
-.portfolio_wrap:hover::before,
-.portfolio_wrap:hover::after{
+
+.article-container:hover::before,
+.article-container:hover::after {
     transform: scale(1);
 }
-.portfolio_info{
-     color: #173a37;
+
+/* Portfolio Info */
+.portfolio_info {
+    color: #173a37;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height : 99%;
+    height: 99%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -785,19 +795,23 @@ header .container{
     border-radius: 10px;
     background-color: rgba(251, 251, 251, 0.63);
 }
-.portfolio_info h4 {
-    font-size: 24px;
-    font-weight: 500;
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 600;
     background-color: transparent;
 }
+
 .portfolio_info p {
     text-transform: uppercase;
     background-color: transparent;
 }
+
 .portfolio_links a {
     font-size: 80px;
     color: #173a37;
 }
+
 .portfolio_wrap:hover .portfolio_info {
     transform: scale(1);
     text-shadow: 1px 1px #fff4f4;
@@ -805,21 +819,31 @@ header .container{
     transition: .8s;
     color: #221001;
 }
-.portfolio_wrap:hover p, 
-.portfolio_wrap:hover h4{
-    background-color: #fff
+
+.portfolio_wrap:hover p,
+.portfolio_wrap:hover h4 {
+    background-color: #fff;
 }
+
 .portfolio_wrap:hover a {
     color: #821f3b;
 }
 
-@media screen and (max-width:992px) {
-    .portfolio_wrap-container{
+/* Responsive Styling */
+@media screen and (max-width: 992px) {
+    .portfolio_wrap-container {
         grid-template-columns: 1fr;
+    }
+
+    .portfolio_wrap {
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+        text-align: center;
     }
 }
 
-@media screen and (max-width: 568px){
+@media screen and (max-width: 568px) {
     .portfolio_wrap-container {
         display: flex;
         text-align: center;
@@ -830,7 +854,108 @@ header .container{
         row-gap: 2rem;
         border-radius: 10px;
     }
+
+    .portfolio_wrap {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
 }
+
+.stacks{
+    text-align: right;
+    margin: 10px;
+    color: var(--small-title-color);
+}
+
+/* Button Styles */
+.btn-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+    margin-top: 20px;
+}
+
+.btn-color-1,
+.btn-color-2 {
+    border: rgb(53, 53, 53) 0.1rem solid;
+}
+
+.btn-color-1:hover,
+.btn-color-2:hover {
+    cursor: pointer;
+}
+
+.btn-color-1,
+.btn-color-2:hover {
+    background: var(--big-title-color);
+    color: white;
+}
+
+.btn-color-1:hover {
+    background: rgb(0, 0, 0);
+}
+
+.btn-color-2 {
+    background: none;
+}
+
+.btn-color-2:hover {
+    border: rgb(255, 255, 255) 0.1rem solid;
+}
+
+/* About Details Container */
+.about-details-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.details-container {
+    padding: 1.5rem;
+    flex: 1;
+    background: white;
+    text-align: center;
+}
+
+#experience {
+    position: relative;
+}
+
+.experience-sub-title {
+    color: rgb(85, 85, 85);
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+}
+
+.article-container {
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+.project-title {
+    margin: 1rem;
+    color: black;
+}
+
+.project-btn {
+    color: black;
+    border-color: rgb(163, 163, 163);
+}
+
 
 
 /*========= Contact section ========*/
