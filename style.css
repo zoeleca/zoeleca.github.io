@@ -1022,7 +1022,7 @@ header .container{
     }
     .portfolio_wrap img {
         border-radius: 10px;
-        height: 80%;}
+        width: 80%;}
 }
 
 @media screen and (max-width: 768px){
@@ -1058,5 +1058,5 @@ header .container{
     }
     .portfolio_wrap img {
         border-radius: 10px;
-        height: 50%;}
+        width: 80%;}
 }
