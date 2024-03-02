@@ -234,17 +234,4 @@ header {
         padding: 0 10px; 
     }
 }
-
-@media screen and (max-width: 968px) {
-    /* Existing styles for screens up to 768px width */
-    .portfolio_wrap img{
-        width: 80%;
-    }
-
-    .portfolio_wrap {
-        flex-direction: column;
-    }
-}
-
-@media screen and (max-width: 568px) {
-}
+ 
