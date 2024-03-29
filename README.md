@@ -4,9 +4,9 @@
 Welcome to My Portfolio ! Here is a minimalist but responsive website to present myself..
 I mainly used HTML & CSS to make it, but I am currently working on a second version using React, Tailwind and Figma ;)
 
-Thanks to all the feedbacks. 
-I've changed the skills sections removing the progress bar and instead putting the logo of the stacks I use. 
-I've modified the project section as well by adding a description to each project. 
+Thanks to all the feedbacks. <br>
+I've changed the skills sections removing the progress bar and instead putting the logo of the stacks I use. <br>
+I've modified the project section as well by adding a description to each project. <br>
 I've added a CV download button and a contact form!
 
 <br>
