@@ -3,6 +3,12 @@
 ### Hi there ! 
 Welcome to My Portfolio ! Here is a minimalist but responsive website to present myself..
 I mainly used HTML & CSS to make it, but I am currently working on a second version using React, Tailwind and Figma ;)
+
+Thanks to all the feedbacks. 
+I've changed the skills sections removing the progress bar and instead putting the logo of the stacks I use. 
+I've modified the project section as well by adding a description to each project. 
+I've added a CV download button and a contact form!
+
 <br>
 
 Click <a href='https://zoeleca.github.io/'>Here</a>
@@ -14,7 +20,7 @@ Click <a href='https://zoeleca.github.io/'>Here</a>
 <br>
 
 <em>My projects</em><br>
-![My project](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/ca52cb20-b12d-4438-ac3b-dadd97dfd1eb)
+![My project](https://github.com/zoeleca/zoeleca.github.io/assets/146814463/11085fdc-9523-4d37-a6e8-daa967ed5574)
 
 <br>
 
