@@ -330,7 +330,9 @@ header .container{
 
 .home_social {
     display: flex;
-    column-gap: 20px;
+    column-gap: 30px;
+    margin-bottom: 10px;
+    justify-content: center;
 }
 .home_social a {
     font-size: 22px;
@@ -470,6 +472,7 @@ header .container{
 
 .download-btn{
     margin: 10px;
+    margin-top: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
