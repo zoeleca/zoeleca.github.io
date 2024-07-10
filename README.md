@@ -11,7 +11,7 @@ I've added a CV download button and a contact form!
 
 <br>
 
-Click <a href='https://zoeleca.github.io/'>Here</a>
+Check it out <a href='https://zoeleca.github.io/'>Here</a>!
 
 <br>
 
